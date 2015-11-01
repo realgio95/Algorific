@@ -55,30 +55,30 @@ void selectionSort2 ( int arr[], int length ) {
 }
 
 
-void selectionSort(int array[], int length) 
-{ 
-		int i, j; 
-		int min, temp; 
-		for (i = 0; i < length; i++) 
-			{ 
-				min = i; 
-				for (j = i+1; j < length; j++) { 
-					if (array[j] < array[min]) 
-						min = j; 
-				} 
-			
+void selectionSort(int array[], int length)
+{
+		int i, j;
+		int min, temp;
+		for (i = 0; i < length; i++)
+			{
+				min = i;
+				for (j = i+1; j < length; j++) {
+					if (array[j] < array[min])
+						min = j;
+				}
+
 				swap(&array[i],&array[min]);
-			}	
-} 
+			}
+}
 
 
 int findiMin()
-{ 
+{
 	int i;
 	int (index == 0){
 
 	}
-	
+
 	for ( i = 0; index < ; index++ ) {
     	    if ( arr[index] > arr[maxIndex] ) {
         	    maxIndex = index;
@@ -86,10 +86,3 @@ int findiMin()
     }
 }
 
-
-
-
-
-
-
-}
