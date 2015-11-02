@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+//Iterative Version of Selection Sort
 void swap (int* a, int* b);
 void selectionSort(int* array, int len) 
 { 
@@ -24,6 +24,7 @@ void selectionSort(int* array, int len)
   }
 }
 
+//Iterative Version of Insertion Sort
 void InsertionSort(int arr[],int len)
 {
 	int i=0;
@@ -43,6 +44,7 @@ void InsertionSort(int arr[],int len)
 
 }
 
+//Iterative Version of  Bubble Sort
 void bubbleSort(int array[],int len)
 {
 	int temp;
@@ -65,3 +67,5 @@ void swap (int* a, int* b)
 		*a=*b;
 		*b=temp;
 	}
+	
+
