@@ -107,3 +107,20 @@ void selectionSort(int array[], int length)
 		return selectionSort(array, length-1);
 	}
 }
+
+void selectionSort2 ( int arr[], int length ) 
+{
+    int maxIndex = 0, temp = 0, index = 0;
+    for (i = maxIndex;index<size;index=0)
+    {
+    	if (array[i]>array[maxIndex])
+    	{
+    		maxIndex=i;
+	}
+    	swap(&array[i],&array[min]);
+    	if ( size > 1 ) 	
+    	{
+        	selectionSort2 ( arr, --size ) ;
+	}
+    }
+}
