@@ -27,7 +27,7 @@ void selectionSort(int* array, int len)
 //Iterative Version of Insertion Sort
 void InsertionSort(int arr[],int len)
 {
-	int i=0;
+	int i;
 	for (i=0;i<len;i++)
 	{
 		//Assertion: At the start of the iteration arr[0...i-1] are
