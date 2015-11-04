@@ -28,7 +28,7 @@ void selectionSort(int* array, int len)
 void InsertionSort(int arr[],int len)
 {
 	int i=0;
-	for (i;i<len;i++)
+	for (i=0;i<len;i++)
 	{
 		//Assertion: At the start of the iteration arr[0...i-1] are
 		// in sorted order
