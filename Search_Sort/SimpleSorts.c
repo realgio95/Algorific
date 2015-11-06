@@ -7,10 +7,10 @@ void swap (int* a, int* b);
 void selectionSort(int* array, int len) 
 { 
   int min, temp; 
-  for (int i = 0; i < len-1; i++) 
+  for (int i = 0; i < len; i++) 
   { 
     	min = i; 
-    	for ( int j = i+1; j < len-1; j++) 
+    	for ( int j = i+1; j < len; j++) 
     	{   
       		if (array[j] < array[min]) 
       		{
@@ -27,8 +27,7 @@ void selectionSort(int* array, int len)
 //Iterative Version of Insertion Sort
 void InsertionSort(int arr[],int len)
 {
-	int i;
-	for (i=0;i<len;i++)
+	for (int i=0;i<len;i++)
 	{
 		//Assertion: At the start of the iteration arr[0...i-1] are
 		// in sorted order
