@@ -16,11 +16,12 @@ void selectionSort(int* array, int len)
       		{
         		min = j; 
 		} 
-		swap (&array[i],&array[min])
-		//temp = array[i];  
-      		//array[i] = array[min]; 
-        	//array[min] = temp; 
     	}
+	swap (&array[i],&array[min])
+	//temp = array[i];  
+      	//array[i] = array[min]; 
+        //array[min] = temp; 
+    	
   }
 }
 
