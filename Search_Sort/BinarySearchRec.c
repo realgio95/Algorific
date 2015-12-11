@@ -13,7 +13,7 @@ int BinarySearchRecA(int arr[],int first, int last, int target)
 { 
 	int mid = (first+last)/2;  
 	
-	if (last <= first) 
+	if (last >= first) 
 	{         
 			//assert: last<=first
 			if (target == arr[mid])
